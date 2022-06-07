@@ -20,7 +20,7 @@ export VEHICLE_SEARCH_PHONE_TO_NUMNBER=<Phone number to send text to, something 
 export VEHICLE_SEARCH_PHONE_FROM_NUMNBER=<Phone number to send text from, i was using a free twilo phone i created))
 ```
 
-# building
+# Building
 go build
 
 # Running
