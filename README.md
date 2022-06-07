@@ -25,3 +25,35 @@ go build
 
 # Running
 go run vehicle-search
+
+# Expected Results
+Terminal will output something similiar to the following, this same string will be the thing pushed over SMS
+
+``` 
+https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?model=Palisade&year=2022
+Name: Jack Giambalvo Hyundai
+Distance: 85.629997
+Phone: 717-755-2944
+{
+    "Vin": "KM8R7DHE5NU485404",
+    "ModelNm": "Palisade",
+    "TrimDesc": "CALLIGRAPHY",
+    "ModelCd": "J1472A65",
+    "Price": "$51,040.00",
+    "ExteriorColorCd": "P7V",
+    "InteriorColorCd": "WDN",
+    "DrivetrainDesc": "ALL WHEEL DRIVE",
+    "TransmissionDesc": "AUTO",
+    "TotalPackages": 0,
+    "TotalOptions": 0,
+    "Packages": null,
+    "Colors": [
+        {
+            "SAPExterioColorCode": "P7V",
+            "ExtColorLongDesc": "STEEL GRAPHITE"
+        }
+    ],
+    "PlannedDeliveryDate": "2022-06-23T04:45:00",
+    "InventoryStatus": "AA"
+}
+```
